@@ -2,6 +2,12 @@ body {
   background-color: #C089C1;
 }
 
+.wrapper {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 h1 {
   font-size: 73px;
   margin-bottom: 30px;
