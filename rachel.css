@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	border-style: solid;
+	border-color: #9E89D3;
+	border-width: 10px;
+}
+
+wrapper{
+	width: 1000px;
+	margin: auto;
+}
