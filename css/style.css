@@ -1,18 +1,36 @@
 body {
-  background-color: #C089C1;
+  	background-color: #822481;
+}
+
+.box {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+	background-color: WhiteSmoke;
 }
 
 .wrapper {
-	width: 95%;
-	margin-left: auto;
-	margin-right: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 h1 {
-  font-size: 73px;
-  margin-bottom: 30px;
+	font-family: Helvetica;
+	font-weight: lighter;
+  	font-size: 73px;
+  	margin-bottom: 30px;
+  	text-align: center;
+  	color: #822481;
 }
 
 p { 
-  font-family: sans-serif;
+  	font-family: Helvetica;
+}
+
+a{
+	color: #822481;
 }
