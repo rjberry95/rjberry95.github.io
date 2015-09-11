@@ -26,7 +26,7 @@ h1 {
   	color: #424242;
   	letter-spacing: 10px;
   	border-bottom: 1px solid #bbbbbb;
-  	margin-bottom: 25px;
+  	margin-bottom: 50px;
 
 
 /*  	color: #822481;*/
@@ -83,6 +83,12 @@ a{
 	border: 1px solid #bbbbbb;
 	text-align: center;
 	padding: 5px;
+}
+
+.content {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 /*a{
