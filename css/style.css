@@ -1,6 +1,7 @@
 body {
   	background-color: #F7f7f7;
   	color: #676767;
+
   	
 }
 
@@ -23,7 +24,7 @@ h1 {
   	color: #424242;
   	letter-spacing: 10px;
   	border-bottom: 1px solid #bbbbbb;
-  	margin-bottom: 50px;
+  	margin-bottom: 40px;
 }
 
 h2 {
@@ -32,12 +33,16 @@ h2 {
   	font-weight: normal;
   	border-top: 1px solid #bbbbbb;
   	border-bottom: 1px solid #bbbbbb;
+  	padding: 3px;
+  	margin-top: 5px;
 }
 
 p {
 	font-family: "Georgia";
   	font-size: 16px;
   	font-weight: 200;
+  	margin: 20px 0px;
+  	line-height: 1.2em;
 }
 
 a{
@@ -50,7 +55,7 @@ a{
 
 .row {
 	text-align: justify;
-	margin-top: 50px;
+	margin-top: 75px;
 }
 
 .row:after {
