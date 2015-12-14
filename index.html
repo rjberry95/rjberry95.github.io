@@ -8,6 +8,13 @@
   <meta name="description" content="Web Design work by Rachel Berry">
   <meta name="author" content="Rachel Berry">
 
+  <!-- JQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script lang="JavaScript">$.support.transition = false</script>
+
   <link rel="stylesheet" href="css/reset.css?v=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css?v=1.0">
@@ -19,10 +26,19 @@
 </head>
 
 <body>
+
   <div class="container-fluid">
+    <div class="row header">
+      <h1 class="col-md-12">Rachel Berry</h1>
+      <h3>Exploring the technology through color and code</h3>
+    </div>
+
     <div class="row gallery">
       <div class="col-md-4">
-        <a href="rio-2016"><img src="images/rio2016.png" class="img-rounded img-responsive .center-block"/></a>
+        <a  data-toggle="collapse" href="#j360detail" aria-expanded="false" aria-controls="collapseExample">
+          <img src="images/rio2016.png" class="img-rounded img-responsive .center-block"/>
+        </a>
+
       </div>
       <div class="col-md-4">
         <a href="lesson-3"><img src="images/lesson3.png" class="img-rounded img-responsive .center-block"/></a>
@@ -31,7 +47,46 @@
         <a><img src="images/ge2.png" class="img-rounded img-responsive .center-block"/></a>
       </div>
     </div>
-        <div class="row">
+
+    <div class="row collapse" id="j360detail">
+      <div class="col-md-4"/>
+        <a href="lesson-3/">
+          <img src="images/lesson3.png" class="img-rounded img-responsive .center-block"/>
+        </a>
+        <h2>Lesson 3</h2>
+        <p>This assignment was a test of our html skills. We had to make an identical copy of a webpage using pure HTML and css.</p>
+      </div>
+      <div class="col-md-4"/>
+        <a href="rio-2016/">
+          <img src="images/rio2016.png" class="img-rounded img-responsive .center-block"/>
+        </a>
+        <h2>Rio Olympics Digital Poster</h2>
+        <p>In this assignment, I was introduced to a framework called Skeleton, which is essentially a more basic version of bootstrap. Our task was to create a digital poster for the Rio De Janero olympics based off of the designs of Josef Müller-Brockmann.</p>
+      </div>
+      <div class="col-md-4"/>
+        <a href="news-site/">
+          <img src="images/news_site.png" class="img-rounded img-responsive .center-block"/>
+        </a>
+        <h2>News Site Design</h2>
+        <p>This assignment tested our grid skills. It was another screenshot reproducing test to see if we understood the Skeleton grid system.</p>
+      </div>
+      <div class="col-md-4 col-md-offset-2"/>
+        <a href="responsive-site/">
+          <img src="images/responsive.png" class="img-rounded img-responsive .center-block"/>
+        </a>
+        <h2>Test Responsive Site</h2>
+        <p>In this assignment, we were introduced to media queries. We had to create a simple webpage with two or three responsive elements. The most difficult part of this form me was coding the menu.</p>
+      </div>
+      <div class="col-md-4"/>
+        <a href="news-redesign/">
+          <img src="images/redesign.png" class="img-rounded img-responsive .center-block"/>
+        </a>
+        <h2>IDS Redesign</h2>
+        <p>In this assignment, we were tasked with redeisgning either the IDS's, New York Time's, or Buzzfeed's website. I chose to redesign the IDS's website because I have never liked the design. My main focus in this assignment was learning how to use flex boxes.</p>
+      </div>
+    </div>
+
+    <div class="row gallery">
       <div class="col-md-4">
         <a><img src="images/pals.jpg" class="img-rounded img-responsive .center-block"/></a>
       </div>
@@ -42,12 +97,20 @@
         <a href="assets/rachelberry_resume.pdf"><img src="images/resume.png" class="img-rounded img-responsive .center-block"/></a>
       </div>
     </div>
-    <div class="row header">
-      <h1 class="col-md-12">Rachel Berry</h1>
-      <h3>Exploring the technology through color and code</h3>
+<!--     <div class="row">
+        <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          Link with href
+        </a>
+
+        <div class="collapse" id="collapseExample">
+          <div class="well">
+            ...
+          </div>
+        </div>
     </div>
+ -->
   </div>
 
-  <script src="js/scripts.js"></script>
+  <!-- // <script src="js/scripts.js"></script> -->
 </body>
 </html>

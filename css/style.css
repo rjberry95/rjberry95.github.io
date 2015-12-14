@@ -1,26 +1,43 @@
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700);
+
+
 body {
 	background-color: #691D68;
 }
 
 .container-fluid {
-	padding-top: 50px;
-	background-color: #EAEAEA;
+	/*padding-top: 50px;*/
+	background-color: #D5DBDB;
+}
+
+.gallery {
+	margin-bottom: 50px;
 }
 
 h1 {
 	text-align: center;
-	font-family: "Helvetica", sans-serif;
-	font-size: 7vw;
+	font-family: "Raleway", sans-serif;
+	font-size: 6vw;
 	font-weight: lighter;
-	color: #DDDDDD;
+	color: #D5DBDB;
 	text-transform: uppercase;
 }
 
 h3{
 	text-align: center;
-	font-family: "Helvetica", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	font-size: 1.5vw;
-	color: #9b4d99;
+	/*color: #9b4d99;*/
+	color: #C39BD3;
+}
+
+h2{
+	font-family: "Raleway", sans-serif;
+	color: #512E5F;
+	text-align: center;
+	font-size: 1.8em;
 }
 
 img {
@@ -28,16 +45,45 @@ img {
 	padding: 5px;
 	width: 80%;
 	margin: 10px auto 10px auto;
-	background-color: white;
+	background-color: #FFFFFF;
 }
 
 img:hover{
-	border-color: #691D68;
+	border-color: #512E5F;`
 }
 
 .header {
-	margin-top: 50px;
-	border-top: 4px solid #9b4d99;
-	background-color: #691D68;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+	border-bottom: 4px solid #C39BD3;
+	/*background-color: #691D68;*/
+	background-color: #512E5F;
 }
 
+.collapse{
+	background-color: #EAEDED;
+	padding: 0 50px;
+	border-top: 2px solid #C39BD3;
+	border-bottom: 2px solid #C39BD3;
+}
+
+.collapse img{
+	background-color: #512E5F;
+	width: 80%;
+}
+
+.collapse .col-md-4 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 0 30px;
+}
+
+.gallery a{
+	color: #512E5F;
+	background-color: white;
+}
+
+p{
+	font-family: "Ubuntu", sans-serif;
+	line-height: 1.6em;
+}
